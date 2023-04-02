@@ -1,7 +1,7 @@
 let fs = require('fs')
 global.data = JSON.parse(fs.readFileSync('./data.json'))
-global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to /src/owner.json
-global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
+global.owner = JSON.parse(fs.readFileSync('6289523573658')) // Put your number to /src/owner.json
+global.mods = JSON.parse(fs.readFileSync('6289523573658')) // Want some help?
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -31,7 +31,7 @@ global.APIKeys = { // APIKey Here
 }
 global.packname = data.namabot
 global.author = data.owner
-global.wm = data.namabot + ' ' + data.owner
+global.wm = data.namabot + 'DhanzBot ' + data.owner
 
 global.multiplier = 100 // The higher, The harder levelup
 
